@@ -20,7 +20,7 @@ print(f"当前位置: x={current[0]:.3f}, y={current[1]:.3f}, z={current[2]:.3f}
 
 # 沿 Z 轴上移 2 cm
 target = current.copy()
-target[2] -= 0.04
+target[2] += 0.04
 print(f"目标位置: x={target[0]:.3f}, y={target[1]:.3f}, z={target[2]:.3f}")
 
 input("确认安全后按 Enter 执行移动（低速）...")
